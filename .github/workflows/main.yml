@@ -1,5 +1,7 @@
 name: A work floe from my project
-on: push
+on: 
+  workflow_dispatch:
+
 jobs:
   build-job:
     name: Hello  World action
