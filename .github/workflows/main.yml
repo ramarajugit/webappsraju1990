@@ -1,0 +1,14 @@
+name: A work floe from my project
+on: push
+jobs:
+  build-job:
+    name: Hello  World action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      name: check out code
+    - name: check out code
+      run: echo Hello World
+    - name: index.html Content
+      run: cat index.html
+      
